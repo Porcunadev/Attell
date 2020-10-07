@@ -20,8 +20,10 @@ const daveImages = [
 
 const button = document.getElementById('button');
 
+//Grab the quotes and images in both arrays and insert it in the site
 button.addEventListener('click', function() {
     const randomImages = getRandomImages();
+// Make sure to wrap IMG ELEMENT in quotes with Images array Randomized
     document.querySelector('.img-container').innerHTML ='<img width="400px" height="380px" src="' +daveImages[randomImages] + '\">';    
 
 
@@ -30,6 +32,7 @@ button.addEventListener('click', function() {
     
 });
 
+//Functions that target Quote and images arrays. Randomizes the round to the nearest integer. Target all items in array using length property.
 function getRandomQuotes() {
     return Math.floor(Math.random() * quotes.length);
 }
