@@ -1,0 +1,36 @@
+html{
+    box-sizing: border-box;
+    font-size: 100%;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.4;
+    color: white;
+    background-color: rgb(58, 56, 56);
+}
+header {
+    margin-top: -25px;
+    background-color: blue;
+    text-align: center;
+}
+
+.container {
+   margin: 0 auto ;
+   display: flex;
+   width: 80%;
+   height: 50%;
+   background-color:rgb(41, 176, 194);
+   justify-content: space-between;
+   
+}
+
+.btn-container{
+    margin: 200px auto;
+    text-align: center;
+
+}
