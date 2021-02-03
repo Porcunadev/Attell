@@ -13,31 +13,48 @@ body {
   margin: 0px;
   padding: 0px;
   line-height: 1.4;
-  color: white;
-  background-color: #3a3838;
+  color: #e406f8;
+  background-image: url("../img/unicorn.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: lighten;
 }
 
 header {
-  margin-top: -25px;
-  background-color: blue;
+  margin-top: 20px;
   text-align: center;
 }
 
 .container {
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 80%;
-  height: 50%;
-  background-color: #29b0c2;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  width: 50%;
+  height: 500px;
+}
+
+.dave-quotes {
+  margin: 0 auto;
+  width: 50%;
+  height: 150px;
+  color: black;
+  background-color: #e3e8ec;
 }
 
 .btn-container {
-  margin: 200px auto;
-  text-align: center;
+  position: relative;
+  left: 1015px;
+  bottom: 440px;
+}
+
+#button {
+  border-radius: 40%;
+  background-color: brown;
+  color: white;
+}
+
+.img-container {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 /*# sourceMappingURL=style.css.map */

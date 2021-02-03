@@ -24,11 +24,11 @@ const button = document.getElementById('button');
 button.addEventListener('click', function() {
     const randomImages = getRandomImages();
 // Make sure to wrap IMG ELEMENT in quotes with Images array Randomized
-    document.querySelector('.img-container').innerHTML ='<img width="400px" height="380px" src="' +daveImages[randomImages] + '\">';    
+    document.querySelector('.img-container').innerHTML ='<img width="100%" height="100%" src="' +daveImages[randomImages] + '\">';    
 
 
     const randomQuotes = getRandomQuotes();
-    document.querySelector('.dave-quotes').innerHTML = '<h2>' +quotes[randomQuotes]+'</h2>';
+    document.querySelector('.dave-quotes').innerHTML = '<h3>' +quotes[randomQuotes]+'</h3>';
     
 });
 
