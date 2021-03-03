@@ -18,6 +18,20 @@ header {
     text-align: center;
 }
 
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav ul li a{
+    color: pink;
+}
+
+nav ul li a:hover {
+    color: cyan;
+}
+
 .container {
    margin: 0 auto ;
    width: 500px;
@@ -55,9 +69,9 @@ section {
     padding: 10px;
     background-color: cyan;
     color: black;
-    position: absolute;
-    left: 310px;
-    bottom:385px;
+    position: relative;
+    right: 120px;
+    bottom:410px;
 }
 
 .img-container {
