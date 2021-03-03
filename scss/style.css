@@ -2,6 +2,8 @@ html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-size: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 
 *, *::before, *::after {
@@ -10,15 +12,9 @@ html {
 }
 
 body {
-  margin: 0px;
-  padding: 0px;
   line-height: 1.4;
-  color: #e406f8;
-  background-image: url("../img/unicorn.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-blend-mode: lighten;
+  color: pink;
+  background-color: #161414;
 }
 
 header {
@@ -28,16 +24,32 @@ header {
 
 .container {
   margin: 0 auto;
-  width: 50%;
-  height: 500px;
+  width: 500px;
+  height: 800px;
+}
+
+.container img {
+  border-radius: 10%;
+  border: 1px solid pink;
+  -webkit-box-shadow: 10px 5px 5px pink;
+          box-shadow: 10px 5px 5px pink;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .dave-quotes {
   margin: 0 auto;
   width: 50%;
   height: 150px;
-  color: black;
-  background-color: #e3e8ec;
+  color: cyan;
+  font-weight: 500;
 }
 
 .btn-container {
@@ -47,9 +59,13 @@ header {
 }
 
 #button {
-  border-radius: 40%;
-  background-color: brown;
-  color: white;
+  border-radius: 10%;
+  padding: 10px;
+  background-color: cyan;
+  color: black;
+  position: absolute;
+  left: 310px;
+  bottom: 385px;
 }
 
 .img-container {
